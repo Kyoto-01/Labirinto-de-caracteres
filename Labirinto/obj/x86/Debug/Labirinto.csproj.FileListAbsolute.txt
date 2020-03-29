@@ -1,0 +1,5 @@
+C:\Users\PC Casa\documents\Visual Studio 2010\Projects\Labirinto\Labirinto\obj\x86\Debug\Labirinto.exe
+C:\Users\PC Casa\documents\Visual Studio 2010\Projects\Labirinto\Labirinto\obj\x86\Debug\Labirinto.pdb
+C:\Users\PC Casa\documents\Visual Studio 2010\Projects\Labirinto\Labirinto\bin\Debug\Labirinto.exe
+C:\Users\PC Casa\documents\Visual Studio 2010\Projects\Labirinto\Labirinto\bin\Debug\Labirinto.pdb
+C:\Users\PC Casa\documents\Visual Studio 2010\Projects\Labirinto\Labirinto\obj\x86\Debug\Labirinto.csprojResolveAssemblyReference.cache
