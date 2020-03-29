@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -66,3 +66,35 @@ namespace Labirinto
                              {14, 10}, {14, 9}, {14, 8}, {14, 7}, {14, 6}};
 
             int retasY = retas.GetLength(1), retasX = retas.GetLength(0);
+
+            for (int linha = 0; linha <= retasX - 1; linha++)
+            {
+                for (int coluna = 0; coluna < retasY - 1; coluna++)
+                {
+                    if (lin == retas[linha, coluna] && col == retas[linha, coluna + 1])
+                    {
+                        matriz[lin, col] = ' ';
+                        break;
+                    }
+                }
+            }
+        }
+
+        public void atualizarTela()
+        {
+            for (int coluna = 0; coluna < ambiente.GetLength(1); coluna++)
+            {
+                for (int linha = 0; linha < ambiente.GetLength(0); linha++)
+                {
+                    if (ambiente[linha, coluna] == personagem1.VisualPersonagem)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                    }
+                    Console.Write(ambiente[linha, coluna]);
+                    Console.ForegroundColor = ambienteCor;
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+}
